@@ -1,0 +1,13 @@
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\bin\Debug\SerialCommunication.exe.config
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\bin\Debug\SerialCommunication.exe
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\bin\Debug\SerialCommunication.pdb
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.csprojResolveAssemblyReference.cache
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\obj\Debug\MainWindow.baml
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\obj\Debug\MainWindow.g.cs
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\obj\Debug\App.g.cs
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication_MarkupCompile.cache
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.g.resources
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.Properties.Resources.resources
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.csproj.GenerateResource.Cache
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.exe
+C:\Users\Nibo\Documents\Arduino\LCDDisplaySerial\SerialCommunication\SerialCommunication\obj\Debug\SerialCommunication.pdb

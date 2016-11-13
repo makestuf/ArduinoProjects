@@ -1,0 +1,7 @@
+C:\Users\Nibo\Documents\Arduino\NiboBathroomReceiver\SerialDataApiComm\obj\Debug\SerialDataApiComm.csprojResolveAssemblyReference.cache
+C:\Users\Nibo\Documents\Arduino\NiboBathroomReceiver\SerialDataApiComm\bin\Debug\BathroomReceiberApiComm.dll
+C:\Users\Nibo\Documents\Arduino\NiboBathroomReceiver\SerialDataApiComm\bin\Debug\BathroomReceiberApiComm.pdb
+C:\Users\Nibo\Documents\Arduino\NiboBathroomReceiver\SerialDataApiComm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nibo\Documents\Arduino\NiboBathroomReceiver\SerialDataApiComm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nibo\Documents\Arduino\NiboBathroomReceiver\SerialDataApiComm\obj\Debug\BathroomReceiberApiComm.dll
+C:\Users\Nibo\Documents\Arduino\NiboBathroomReceiver\SerialDataApiComm\obj\Debug\BathroomReceiberApiComm.pdb

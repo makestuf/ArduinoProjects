@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module -->
+<html lang="en" dir="ltr" class="client-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>NRF24L01+PA+LNA Wireless Module - Elecrow</title>
+
+<meta name="generator" content="MediaWiki 1.19.1">
+<link rel="shortcut icon" href="http://www.elecrow.com/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="http://www.elecrow.com/wiki/opensearch_desc.php" title="Elecrow (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://www.elecrow.com/wiki/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="Elecrow Atom feed" href="http://www.elecrow.com/wiki/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="stylesheet" href="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/load.php">
+<style type="text/css" media="all">.js-messagebox{margin:1em 5%;padding:0.5em 2.5%;border:1px solid #ccc;background-color:#fcfcfc;font-size:0.8em}.js-messagebox .js-messagebox-group{margin:1px;padding:0.5em 2.5%;border-bottom:1px solid #ddd}.js-messagebox .js-messagebox-group:last-child{border-bottom:thin none transparent}
+
+/* cache key: elecro5_CrowWiki:resourceloader:filter:minify-css:7:8b08bdc91c52a9ffba396dccfb5b473c */
+
+
+.mw-collapsible-toggle{float:right} li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+
+/* cache key: elecro5_CrowWiki:resourceloader:filter:minify-css:7:4250852ed2349a0d4d0fc6509a3e7d4c */
+</style><meta name="ResourceLoaderDynamicStyles" content="">
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: elecro5_CrowWiki:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/load(1).php"></script><style type="text/css"></style><script src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/load(2).php"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"NRF24L01+PA+LNA_Wireless_Module","wgTitle":"NRF24L01+PA+LNA Wireless Module","wgCurRevisionId":12689,"wgArticleId":8786,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"NRF24L01+PA+LNA_Wireless_Module","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFCKEditorDir":"extensions/FCKeditor/fckeditor/","wgFCKEditorExtDir":"extensions/FCKeditor","wgFCKEditorToolbarSet":"Wiki","wgFCKEditorHeight":"0"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"riched_use_toggle":1,"riched_start_disabled":1,"riched_use_popup":1,"riched_toggle_remember_state":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: elecro5_CrowWiki:resourceloader:filter:minify-js:7:95f354d9997de150b3d7d6675ee3b747 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script><script type="text/javascript" src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/load(3).php"></script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/wiki/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-NRF24L01_PA_LNA_Wireless_Module skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;" class="js-messagebox"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">NRF24L01+PA+LNA Wireless Module</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Elecrow</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#mw-head">navigation</a>,
+					<a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#" class="internal" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#Description"><span class="tocnumber">1</span> <span class="toctext">Description</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#Features"><span class="tocnumber">2</span> <span class="toctext">Features</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#Specification"><span class="tocnumber">3</span> <span class="toctext">Specification</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#Interface_Function"><span class="tocnumber">4</span> <span class="toctext">Interface Function</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#Usage"><span class="tocnumber">5</span> <span class="toctext">Usage</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#With_Arduino"><span class="tocnumber">5.1</span> <span class="toctext">With Arduino</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#Resource"><span class="tocnumber">6</span> <span class="toctext">Resource</span></a></li>
+</ul>
+</td></tr></tbody></table>
+<h2> <span class="mw-headline" id="Description"> Description </span></h2>
+<p>NRF24L01P + PA + LNA wireless module operates in Free license 2.4G ISM band, you can do point to point application and can also be composed of star network. The Data transmission chip NRF24L01+, and match with the department's professional design, Add the the chip of power PA and LNA, RF switch, band pass filter composed of a professional full two-way RF power amplifier, making the effective communication distance has been greatly expanded. Small size: 45.54mm x 16.46mm, easy to embed in any space-constrained products, customers can use the SPI port of Arduino or any other MCU to control NRF24L01P + PA + LNA, Wireless module to complete long distance wireless data transmission system desige.<br>
+<b>Model:<a rel="nofollow" class="external text" href="http://www.elecrow.com/nrf24l01palna-wireless-module-1100-meters-p-556.html">WRW24015R</a></b><br>
+</p><p><a href="http://www.elecrow.com/wiki/index.php?title=File:NRF24L01_PA_LNA_Wireless_Module.jpg" class="image"><img alt="NRF24L01 PA LNA Wireless Module.jpg" src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/400px-NRF24L01_PA_LNA_Wireless_Module.jpg" width="400" height="266"></a>
+</p>
+<h2> <span class="mw-headline" id="Features"> Features  </span></h2>
+<ul><li>It uses 2.4G global open ISM band, with license free.
+</li><li>Transmit power is greater than +20 dbm.Support six-channel data reception. 2Mbit/s speed makes high-quality VoIP possible Low<br>
+</li><li>operating voltage: 2.7 to 3.6V<br>
+</li><li>Multi-frequency points: 125 frequency points meet the needs of multi-point communications and frequency hopping.<br>
+</li><li>Low cost: integrated with high-speed signal processing parts associated with RF protocol, such as: automatically re-send lost packets and generate acknowledge signal; SPI interface facilitates the communication with MCU I/O port.<br>
+</li><li>Facilitate the development for customers, without development RF part.<br>
+</li><li>Software programming is fully compatible with NRF24L01 modules.Size: 37.4mm * 16.6mm<br>
+</li><li>Applications: remote control, telemetry, wireless meter reading, access control systems, residential paging, industrial data acquisition systems, wireless tags, identification, contactless RF smart card, small wireless data terminal, fire <br>
+</li><li>safety systems, wireless remote control systems, bio-signal acquisition, wireless 232, wireless 422/485 data communications.<br>
+</li></ul>
+<h2> <span class="mw-headline" id="Specification">Specification</span></h2>
+<ul><li>Operating Frequency: 2400MHz ~ 2524MHz<br>
+</li><li>Modulation: GMSK<br>
+</li><li>Transmit power: more than +20 dbm, 50Ω<br>
+</li><li>Receiver sensitivity:-95dbm<br>
+</li><li>Operating voltage: 2.7V ~ 3.6V<br>
+</li><li>Max Emission current: 115mA<br>
+</li><li>Max Receive current: 45mA<br>
+</li><li>Operating temperature: -45 degrees to +85 degrees<br>
+</li><li>Storage temperature: -45 degrees to +125 degrees<br>
+</li><li>Gain Of PA: 20 dB<br>
+</li><li>Gain Of LNA: 10 dB<br>
+</li></ul>
+<h2> <span class="mw-headline" id="Interface_Function"> Interface Function </span></h2>
+<p><a href="http://www.elecrow.com/wiki/index.php?title=File:NRF24L011.JPG" class="image"><img alt="NRF24L011.JPG" src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/400px-NRF24L011.JPG" width="400" height="103"></a>
+</p>
+<table style="text-align: center; width: 100%;" border="1">
+<tbody><tr>
+<td>PIN</td>
+<td>&nbsp;</td>
+<td style="text-align: center;">Function</td>
+<td style="text-align: center;">Direction</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pin1</td>
+<td style="text-align: center;">GND</td>
+<td style="text-align: center;">Ground</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pin2</td>
+<td style="text-align: center;">VCC</td>
+<td style="text-align: center;">VCC, 1.9~3.6V</td>
+<td style="text-align: center;">&nbsp;</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pin3</td>
+<td style="text-align: center;">CE</td>
+<td style="text-align: center;">Operating Mode,RX/TX</td>
+<td style="text-align: center;">In</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pin4</td>
+<td style="text-align: center;">CSN</td>
+<td style="text-align: center;">SPI chip select</td>
+<td style="text-align: center;">In</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pin5</td>
+<td style="text-align: center;">SCK</td>
+<td style="text-align: center;">SPI clock</td>
+<td style="text-align: center;">In</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pin6</td>
+<td style="text-align: center;">MOSI</td>
+<td style="text-align: center;">SPI Input</td>
+<td style="text-align: center;">In</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pin7</td>
+<td style="text-align: center;">MISO</td>
+<td style="text-align: center;">SPI Output</td>
+<td style="text-align: center;">Out</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pin8</td>
+<td style="text-align: center;">IRQ</td>
+<td style="text-align: center;">Interrupt Output</td>
+<td style="text-align: center;">Out</td>
+</tr>
+</tbody></table>
+<h2> <span class="mw-headline" id="Usage"> Usage  </span></h2>
+<h3> <span class="mw-headline" id="With_Arduino">With Arduino</span></h3>
+<p>The nRF24L01 module can be controlled in many ways, one of which is Arduino or Crowduino. We tried and tested it, then made a demo. Let’s see how it works with Arduino.<br>
+1.Hardware Connection.<br>
+First of all, of course, you need two Arduino boards and at least two RF modules, one to transmit and the other to receive.<br>
+</p><p><a href="http://www.elecrow.com/wiki/index.php?title=File:NRF24L012.jpg" class="image"><img alt="NRF24L012.jpg" src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/400px-NRF24L012.jpg" width="400" height="278"></a>   <a href="http://www.elecrow.com/wiki/index.php?title=File:NRF24L013.jpg" class="image"><img alt="NRF24L013.jpg" src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/400px-NRF24L013.jpg" width="400" height="300"></a>
+</p><p>2.Download the code below into the TX Arduino (transmit) — This code will drive the nRF24L01 module to send out data form 0×00 to 0xFF .<br>
+</p>
+<pre>/** ******************************************************************
+**   SPI-compatible                                                 **
+**   CS -  to digital pin 8                                         **
+**   CSN - to digital pin 9   (SS pin)                              **
+**   IRQ - to digital pin 10  (IRQ pin)                             **
+**   MOSI - to digital pin 11 (MOSI pin)                            **
+**   MISO - to digital pin 12 (MISO pin)                            **
+**   CLK - to digital pin 13  (SCK pin)                             **
+*********************************************************************/
+
+#include &lt;SPI.h&gt;
+#include "API.h"
+#include "nRF24L01.h"
+
+//***************************************************
+#define TX_ADR_WIDTH    5   // 5 unsigned chars TX(RX) address width
+#define TX_PLOAD_WIDTH  32  // 32 unsigned chars TX payload
+
+unsigned char TX_ADDRESS[TX_ADR_WIDTH]  = 
+{
+  0x34,0x43,0x10,0x10,0x01
+}; // Define a static TX address
+
+unsigned char rx_buf[TX_PLOAD_WIDTH] = {0}; // initialize value
+unsigned char tx_buf[TX_PLOAD_WIDTH] = {0};
+//***************************************************
+void setup() 
+{
+  Serial.begin(9600);
+  pinMode(CE,  OUTPUT);
+  pinMode(CSN, OUTPUT);
+  pinMode(IRQ, INPUT);
+  SPI.begin();
+  delay(50);
+  init_io();                        // Initialize IO port
+  unsigned char sstatus=SPI_Read(STATUS);
+  Serial.println("*******************TX_Mode Start****************************");
+  Serial.print("status = ");    
+  Serial.println(sstatus,HEX);     // There is read the mode’s status register, the default value should be ‘E’
+  TX_Mode();                       // set TX mode
+}
+
+void loop() 
+{
+  int k = 0;
+  for(;;)
+  {
+    for(int i=0; i&lt;32; i++)
+        tx_buf[i] = k++;        
+    unsigned char sstatus = SPI_Read(STATUS);                   // read register STATUS's value
+    if(sstatus&amp;TX_DS)                                           // if receive data ready (TX_DS) interrupt
+    {
+      SPI_RW_Reg(FLUSH_TX,0);                                  
+      SPI_Write_Buf(WR_TX_PLOAD,tx_buf,TX_PLOAD_WIDTH);       // write playload to TX_FIFO
+    }
+    if(sstatus&amp;MAX_RT)                                         // if receive data ready (MAX_RT) interrupt, this is retransmit than  SETUP_RETR                          
+    {
+      SPI_RW_Reg(FLUSH_TX,0);
+      SPI_Write_Buf(WR_TX_PLOAD,tx_buf,TX_PLOAD_WIDTH);      // disable standy-mode
+    }
+    SPI_RW_Reg(WRITE_REG+STATUS,sstatus);                     // clear RX_DR or TX_DS or MAX_RT interrupt flag
+    delay(1000);
+  }
+}
+
+//**************************************************
+// Function: init_io();
+// Description:
+// flash led one time,chip enable(ready to TX or RX Mode),
+// Spi disable,Spi clock line init high
+//**************************************************
+void init_io(void)
+{
+  digitalWrite(IRQ, 0);
+  digitalWrite(CE, 0);			// chip enable
+  digitalWrite(CSN, 1);                 // Spi disable	
+}
+
+/************************************************************************
+**   * Function: SPI_RW();
+ * 
+ * Description:
+ * Writes one unsigned char to nRF24L01, and return the unsigned char read
+ * from nRF24L01 during write, according to SPI protocol
+************************************************************************/
+unsigned char SPI_RW(unsigned char Byte)
+{
+  return SPI.transfer(Byte);
+}
+
+/**************************************************/
+
+/**************************************************
+ * Function: SPI_RW_Reg();
+ * 
+ * Description:
+ * Writes value 'value' to register 'reg'
+/**************************************************/
+unsigned char SPI_RW_Reg(unsigned char reg, unsigned char value)
+{
+  unsigned char status;
+
+  digitalWrite(CSN, 0);                   // CSN low, init SPI transaction
+  SPI_RW(reg);                            // select register
+  SPI_RW(value);                          // ..and write value to it..
+  digitalWrite(CSN, 1);                   // CSN high again
+
+  return(status);                   // return nRF24L01 status unsigned char
+}
+/**************************************************/
+
+/**************************************************
+ * Function: SPI_Read();
+ * 
+ * Description:
+ * Read one unsigned char from nRF24L01 register, 'reg'
+/**************************************************/
+unsigned char SPI_Read(unsigned char reg)
+{
+  unsigned char reg_val;
+
+  digitalWrite(CSN, 0);                // CSN low, initialize SPI communication...
+  SPI_RW(reg);                         // Select register to read from..
+  reg_val = SPI_RW(0);                 // ..then read register value
+  digitalWrite(CSN, 1);                // CSN high, terminate SPI communication
+
+  return(reg_val);                     // return register value
+}
+/**************************************************/
+
+/**************************************************
+ * Function: SPI_Read_Buf();
+ * 
+ * Description:
+ * Reads 'unsigned chars' #of unsigned chars from register 'reg'
+ * Typically used to read RX payload, Rx/Tx address
+/**************************************************/
+unsigned char SPI_Read_Buf(unsigned char reg, unsigned char *pBuf, unsigned char bytes)
+{
+  unsigned char sstatus,i;
+
+  digitalWrite(CSN, 0);                   // Set CSN low, init SPI tranaction
+  sstatus = SPI_RW(reg);       	    // Select register to write to and read status unsigned char
+
+  for(i=0;i&lt;bytes;i++)
+  {
+    pBuf[i] = SPI_RW(0);    // Perform SPI_RW to read unsigned char from nRF24L01
+  }
+
+  digitalWrite(CSN, 1);                   // Set CSN high again
+
+  return(sstatus);                  // return nRF24L01 status unsigned char
+}
+/**************************************************/
+
+/**************************************************
+ * Function: SPI_Write_Buf();
+ * 
+ * Description:
+ * Writes contents of buffer '*pBuf' to nRF24L01
+ * Typically used to write TX payload, Rx/Tx address
+/**************************************************/
+unsigned char SPI_Write_Buf(unsigned char reg, unsigned char *pBuf, unsigned char bytes)
+{
+  unsigned char sstatus,i;
+
+  digitalWrite(CSN, 0);                   // Set CSN low, init SPI tranaction
+  sstatus = SPI_RW(reg);             // Select register to write to and read status unsigned char
+  for(i=0;i&lt;bytes; i++)             // then write all unsigned char in buffer(*pBuf)
+  {
+    SPI_RW(*pBuf++);
+  }
+  digitalWrite(CSN, 1);                   // Set CSN high again
+  return(sstatus);                  // return nRF24L01 status unsigned char
+}
+/**************************************************/
+
+/**************************************************
+ * Function: TX_Mode();
+ * 
+ * Description:
+ * This function initializes one nRF24L01 device to
+ * TX mode, set TX address, set RX address for auto.ack,
+ * fill TX payload, select RF channel, datarate &amp; TX pwr.
+ * PWR_UP is set, CRC(2 unsigned chars) is enabled, &amp; PRIM:TX.
+ * 
+ * ToDo: One high pulse(&gt;10us) on CE will now send this
+ * packet and expext an acknowledgment from the RX device.
+ **************************************************/
+void TX_Mode(void)
+{
+  digitalWrite(CE, 0);
+
+  SPI_Write_Buf(WRITE_REG + TX_ADDR, TX_ADDRESS, TX_ADR_WIDTH);    // Writes TX_Address to nRF24L01
+  SPI_Write_Buf(WRITE_REG + RX_ADDR_P0, TX_ADDRESS, TX_ADR_WIDTH); // RX_Addr0 same as TX_Adr for Auto.Ack
+
+  SPI_RW_Reg(WRITE_REG + EN_AA, 0x01);      // Enable Auto.Ack:Pipe0
+  SPI_RW_Reg(WRITE_REG + EN_RXADDR, 0x01);  // Enable Pipe0
+  SPI_RW_Reg(WRITE_REG + SETUP_RETR, 0x1a); // 500us + 86us, 10 retrans...
+  SPI_RW_Reg(WRITE_REG + RF_CH, 40);        // Select RF channel 40
+  SPI_RW_Reg(WRITE_REG + RF_SETUP, 0x07);   // TX_PWR:0dBm, Datarate:2Mbps, LNA:HCURR
+  SPI_RW_Reg(WRITE_REG + CONFIG, 0x0e);     // Set PWR_UP bit, enable CRC(2 unsigned chars) &amp; Prim:TX. MAX_RT &amp; TX_DS enabled..
+  SPI_Write_Buf(WR_TX_PLOAD,tx_buf,TX_PLOAD_WIDTH);
+
+  digitalWrite(CE, 1);
+} 
+</pre>
+<p>3.Download the code below into the RX Arduino (receive) – This code will drive the nFR24L01 module to receive the data that transmit form the TX module and print it to serial port.<br>
+</p>
+<pre>/** ******************************************************************
+**   SPI-compatible                                                 **
+**   CS -  to digital pin 8                                         **
+**   CSN - to digital pin 9   (SS pin)                              **
+**   IRQ - to digital pin 10  (IRQ pin)                             **
+**   MOSI - to digital pin 11 (MOSI pin)                            **
+**   MISO - to digital pin 12 (MISO pin)                            **
+**   CLK - to digital pin 13  (SCK pin)                             **
+*********************************************************************/
+
+#include &lt;SPI.h&gt;
+#include "API.h"
+#include "nRF24L01.h"
+
+//***************************************************
+#define TX_ADR_WIDTH    5   // 5 unsigned chars TX(RX) address width
+#define TX_PLOAD_WIDTH  32  // 32 unsigned chars TX payload
+
+unsigned char TX_ADDRESS[TX_ADR_WIDTH]  = 
+{
+  0x34,0x43,0x10,0x10,0x01
+}; // Define a static TX address
+
+unsigned char rx_buf[TX_PLOAD_WIDTH] = {0}; // initialize value
+unsigned char tx_buf[TX_PLOAD_WIDTH] = {0};
+//***************************************************
+void setup() 
+{
+  Serial.begin(9600);
+  pinMode(CE,  OUTPUT);
+  pinMode(CSN, OUTPUT);
+  pinMode(IRQ, INPUT);
+  SPI.begin();
+  delay(50);
+  init_io();                        // Initialize IO port
+  unsigned char sstatus=SPI_Read(STATUS);
+  Serial.println("*******************RX_Mode Start****************************");
+  Serial.print("status = ");    
+  Serial.println(sstatus,HEX);     // There is read the mode’s status register, the default value should be ‘E’
+  RX_Mode();                        // set RX mode
+}
+
+void loop() 
+{
+  for(;;)
+  {
+    unsigned char status = SPI_Read(STATUS);                         // read register STATUS's value
+    if(status&amp;RX_DR)                                                 // if receive data ready (TX_DS) interrupt
+    {
+      SPI_Read_Buf(RD_RX_PLOAD, rx_buf, TX_PLOAD_WIDTH);             // read playload to rx_buf
+      SPI_RW_Reg(FLUSH_RX,0);                                        // clear RX_FIFO
+      for(int i=0; i&lt;32; i++)
+      {
+          Serial.print(" ");
+          Serial.print(rx_buf[i],HEX);                              // print rx_buf
+      }
+      Serial.println(" ");
+    }
+    SPI_RW_Reg(WRITE_REG+STATUS,status);                             // clear RX_DR or TX_DS or MAX_RT interrupt flag
+    delay(1000);
+  }
+}
+
+//**************************************************
+// Function: init_io();
+// Description:
+// flash led one time,chip enable(ready to TX or RX Mode),
+// Spi disable,Spi clock line init high
+//**************************************************
+void init_io(void)
+{
+  digitalWrite(IRQ, 0);
+  digitalWrite(CE, 0);			// chip enable
+  digitalWrite(CSN, 1);                 // Spi disable	
+}
+
+/************************************************************************
+**   * Function: SPI_RW();
+ * 
+ * Description:
+ * Writes one unsigned char to nRF24L01, and return the unsigned char read
+ * from nRF24L01 during write, according to SPI protocol
+************************************************************************/
+unsigned char SPI_RW(unsigned char Byte)
+{
+  return SPI.transfer(Byte);
+}
+
+/**************************************************/
+
+/**************************************************
+ * Function: SPI_RW_Reg();
+ * 
+ * Description:
+ * Writes value 'value' to register 'reg'
+/**************************************************/
+unsigned char SPI_RW_Reg(unsigned char reg, unsigned char value)
+{
+  unsigned char status;
+
+  digitalWrite(CSN, 0);                   // CSN low, init SPI transaction
+  SPI_RW(reg);                            // select register
+  SPI_RW(value);                          // ..and write value to it..
+  digitalWrite(CSN, 1);                   // CSN high again
+
+  return(status);                   // return nRF24L01 status unsigned char
+}
+/**************************************************/
+
+/**************************************************
+ * Function: SPI_Read();
+ * 
+ * Description:
+ * Read one unsigned char from nRF24L01 register, 'reg'
+/**************************************************/
+unsigned char SPI_Read(unsigned char reg)
+{
+  unsigned char reg_val;
+
+  digitalWrite(CSN, 0);                // CSN low, initialize SPI communication...
+  SPI_RW(reg);                         // Select register to read from..
+  reg_val = SPI_RW(0);                 // ..then read register value
+  digitalWrite(CSN, 1);                // CSN high, terminate SPI communication
+
+  return(reg_val);                     // return register value
+}
+/**************************************************/
+
+/**************************************************
+ * Function: SPI_Read_Buf();
+ * 
+ * Description:
+ * Reads 'unsigned chars' #of unsigned chars from register 'reg'
+ * Typically used to read RX payload, Rx/Tx address
+/**************************************************/
+unsigned char SPI_Read_Buf(unsigned char reg, unsigned char *pBuf, unsigned char bytes)
+{
+  unsigned char sstatus,i;
+
+  digitalWrite(CSN, 0);                   // Set CSN low, init SPI tranaction
+  sstatus = SPI_RW(reg);       	    // Select register to write to and read status unsigned char
+
+  for(i=0;i&lt;bytes;i++)
+  {
+    pBuf[i] = SPI_RW(0);    // Perform SPI_RW to read unsigned char from nRF24L01
+  }
+
+  digitalWrite(CSN, 1);                   // Set CSN high again
+
+  return(sstatus);                  // return nRF24L01 status unsigned char
+}
+/**************************************************/
+
+/**************************************************
+ * Function: SPI_Write_Buf();
+ * 
+ * Description:
+ * Writes contents of buffer '*pBuf' to nRF24L01
+ * Typically used to write TX payload, Rx/Tx address
+/**************************************************/
+unsigned char SPI_Write_Buf(unsigned char reg, unsigned char *pBuf, unsigned char bytes)
+{
+  unsigned char sstatus,i;
+
+  digitalWrite(CSN, 0);                   // Set CSN low, init SPI tranaction
+  sstatus = SPI_RW(reg);             // Select register to write to and read status unsigned char
+  for(i=0;i&lt;bytes; i++)             // then write all unsigned char in buffer(*pBuf)
+  {
+    SPI_RW(*pBuf++);
+  }
+  digitalWrite(CSN, 1);                   // Set CSN high again
+  return(sstatus);                  // return nRF24L01 status unsigned char
+}
+/**************************************************/
+
+void RX_Mode(void)
+{
+  digitalWrite(CE, 0);
+  
+  SPI_Write_Buf(WRITE_REG + RX_ADDR_P0, TX_ADDRESS, TX_ADR_WIDTH); // Use the same address on the RX device as the TX device
+  SPI_RW_Reg(WRITE_REG + EN_AA, 0x01);      // Enable Auto.Ack:Pipe0
+  SPI_RW_Reg(WRITE_REG + EN_RXADDR, 0x01);  // Enable Pipe0
+  SPI_RW_Reg(WRITE_REG + RF_CH, 40);        // Select RF channel 40
+  SPI_RW_Reg(WRITE_REG + RX_PW_P0, TX_PLOAD_WIDTH); // Select same RX payload width as TX Payload width
+  SPI_RW_Reg(WRITE_REG + RF_SETUP, 0x07);   // TX_PWR:0dBm, Datarate:2Mbps, LNA:HCURR
+  SPI_RW_Reg(WRITE_REG + CONFIG, 0x0f);     // Set PWR_UP bit, enable CRC(2 unsigned chars) &amp; Prim:RX. RX_DR enabled..
+  digitalWrite(CE, 1);                             // Set CE pin high to enable RX device
+  //  This device is now ready to receive one packet of 16 unsigned chars payload from a TX device sending to address
+  //  '3443101001', with auto acknowledgment, retransmit count of 10, RF channel 40 and datarate = 2Mbps.
+} 
+</pre>
+<p>4.Now power on both Arduino , and connect the RX one to PC via USB. Open the IDE serial port monitor , change the baud rate to 9600 bps , and you can see the data that received.<br>
+<a href="http://www.elecrow.com/wiki/index.php?title=File:NRF24L01result1.jpg" class="image"><img alt="NRF24L01result1.jpg" src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/400px-NRF24L01result1.jpg" width="400" height="374"></a>   <a href="http://www.elecrow.com/wiki/index.php?title=File:NRF24L01result2.jpg" class="image"><img alt="NRF24L01result2.jpg" src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/400px-NRF24L01result2.jpg" width="400" height="374"></a>
+</p>
+<h2> <span class="mw-headline" id="Resource"> Resource  </span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://www.elecrow.com/wiki/index.php?title=File:SPI_rf24L01.zip">NRF24L01+PA+LNA Wireless Module demo code</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 75/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key elecro5_CrowWiki:pcache:idhash:8786-0!*!*!!en!2!* and timestamp 20150803043642 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module&amp;oldid=12689">http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module&amp;oldid=12689</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id="catlinks" class="catlinks catlinks-allhidden"></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="http://www.elecrow.com/wiki/index.php?title=Special:UserLogin&amp;returnto=NRF24L01%2BPA%2BLNA+Wireless+Module" title="You are encouraged to log in; however, it is not mandatory [alt-shift-o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li id="ca-nstab-main" class="selected"><span><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module" title="View the content page [alt-shift-c]" accesskey="c">Page</a></span></li>
+					<li id="ca-talk" class="new"><span><a href="http://www.elecrow.com/wiki/index.php?title=Talk:NRF24L01%2BPA%2BLNA_Wireless_Module&amp;action=edit&amp;redlink=1" title="Discussion about the content page [alt-shift-t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module">Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module&amp;action=edit" title="This page is protected.
+You can view its source [alt-shift-e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module&amp;action=history" title="Past revisions of this page [alt-shift-h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="http://www.elecrow.com/wiki/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search Elecrow [alt-shift-f]" accesskey="f" id="searchInput">			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton">			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton">					<input type="hidden" name="title" value="Special:Search">
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo"><a style="background-image: url(/wiki/skins/common/images/wiki.png);" href="http://www.elecrow.com/wiki/index.php?title=Main_Page" title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id="p-navigation">
+	<h5>Navigation</h5>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="http://www.elecrow.com/wiki/index.php?title=Main_Page" title="Visit the main page [alt-shift-z]" accesskey="z">Main page</a></li>
+			<li id="n-portal"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-currentevents"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow:Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-recentchanges"><a href="http://www.elecrow.com/wiki/index.php?title=Special:RecentChanges" title="A list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li>
+			<li id="n-randompage"><a href="http://www.elecrow.com/wiki/index.php?title=Special:Random" title="Load a random page [alt-shift-x]" accesskey="x">Random page</a></li>
+			<li id="n-help"><a href="http://www.elecrow.com/wiki/index.php?title=Help:Contents" title="The place to find out">Help</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- Elecrow Products -->
+<div class="portal" id="p-Elecrow_Products">
+	<h5>Elecrow Products</h5>
+	<div class="body">
+		<ul>
+			<li id="n-Elecrow-Controllers"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow_Controllers">Elecrow Controllers</a></li>
+			<li id="n-Elecrow-Shields"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow_Shields">Elecrow Shields</a></li>
+			<li id="n-Elecrow-Crowtail"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow_Crowtail">Elecrow Crowtail</a></li>
+			<li id="n-Elecrow-Sensors"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow_Sensors">Elecrow Sensors</a></li>
+			<li id="n-Elecrow-Services"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow_Services">Elecrow Services</a></li>
+			<li id="n-Elecrow_Display"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow_Display">Elecrow_Display</a></li>
+			<li id="n-Modules-for-Prototyping"><a href="http://www.elecrow.com/wiki/index.php?title=Modules_for_Prototyping">Modules for Prototyping</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /Elecrow Products -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id="p-tb">
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="http://www.elecrow.com/wiki/index.php?title=Special:WhatLinksHere/NRF24L01%2BPA%2BLNA_Wireless_Module" title="A list of all wiki pages that link here [alt-shift-j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="http://www.elecrow.com/wiki/index.php?title=Special:RecentChangesLinked/NRF24L01%2BPA%2BLNA_Wireless_Module" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="http://www.elecrow.com/wiki/index.php?title=Special:SpecialPages" title="A list of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li>
+			<li><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module&amp;printable=yes" rel="alternate">Printable version</a></li>
+			<li id="t-permalink"><a href="http://www.elecrow.com/wiki/index.php?title=NRF24L01%2BPA%2BLNA_Wireless_Module&amp;oldid=12689" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 2 August 2015, at 21:36.</li>
+											<li id="footer-info-viewcount">This page has been accessed 55 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow:Privacy_policy" title="Elecrow:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow:About" title="Elecrow:About">About Elecrow</a></li>
+											<li id="footer-places-disclaimer"><a href="http://www.elecrow.com/wiki/index.php?title=Elecrow:General_disclaimer" title="Elecrow:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/load(4).php"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready"], null, true);
+}</script><script src="./NRF24L01+PA+LNA Wireless Module - Elecrow_files/load(5).php" type="text/javascript"></script>
+<!-- Served in 0.371 secs. -->
+	
+<!-- Cached 20150803071319 -->
+
+</body></html>
